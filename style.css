@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -54,46 +54,76 @@ h1, h2, h3 {
 }
 
 /*Contact Stuff--------------------------------------------------------------------------*/
-.contact-info {
+.infoL {
     margin-bottom: 20px;
+    color:#fff;
 }
 
-.contact-info p {
+.infoL p {
     margin: 5px 0;
+    color:#fff;
+}
+
+.infoR {
+    margin-bottom: 20px;
+    color:#2d2d2d;
+}
+
+.infoR p {
+    margin: 5px 0;
+    color:#2d2d2d;
 }
 /*Contact Stuff--------------------------------------------------------------------------*/
 
-.education {
-    margin-bottom: 20px;
-}
-
-.education-info p {
-    margin: 5px 0;
-}
 
 /*Section Stuff--------------------------------------------------------------------------*/
 
-.section {
+.sectionL {
     margin-bottom: 30px;
 }
 
-.section h2 {
-    border-bottom: 2px solid #333;
+.sectionL h2 {
+    border-bottom: 2px solid #fff;
     padding-bottom: 5px;
 }
 
-.section ul {
+.sectionL ul {
     list-style-type: none;
     padding: 0;
 }
 
-.section li {
+.sectionL li {
     margin-bottom: 10px;
 }
 
-.section li strong {
+.sectionL li strong {
     display: inline-block;
     width: 120px;
     font-weight: bold;
 }
 /*Section Stuff--------------------------------------------------------------------------*/
+
+.sectionR {
+    margin-bottom: 30px;
+}
+
+.sectionR h2 {
+    border-bottom: 2px solid #2d2d2d;
+    padding-bottom: 5px;
+}
+
+.sectionR ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: large;
+}
+
+.sectionR li {
+    margin-bottom: 10px;
+}
+
+.sectionR li strong {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
