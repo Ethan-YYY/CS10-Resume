@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -9,7 +9,7 @@ body {
     width: 90%;
     max-width: 1000px; 
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #ffeabe;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -23,7 +23,7 @@ body {
 .name {
     font-size: 28px;
     margin-bottom: 10px;
-    color: #333;
+    color: #000000;
 }
 
 .row {
@@ -62,12 +62,6 @@ body {
 .info li i {
     margin-right: 10px;
     color: #666;
-}
-
-@media (max-width: 768px) {
-    .column {
-        flex: 100%; 
-    }
 }
 
 .info li:hover {
